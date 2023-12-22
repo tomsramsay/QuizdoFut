@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('pitch.jpg'); /* Add your background image */
+    background-size: cover;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+#start-btn {
+    display: block;
+    margin: 20% auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#question {
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin-bottom: 29px;
+}
+
+#question-container {
+    display: none;
+}
+
+#choices button.correct-answer {
+    background-color: green; /* Set the background color for the correct answer */
+    color: white; /* Set the text color for the correct answer */
+}
+
+#choices button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 16px;
+    background-color: white; /* Adjust as needed */
+    color: black; /* Adjust as needed */
+    border: none;
+    cursor: pointer;
+}
+
+#result-container {
+    display: none;
+}
+
+#result-img {
+    max-width: 80%; /* Adjust the max-width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    margin-top: 10px; /* Add some top margin for spacing */
+}
+
+
+#congratulations {
+    display: none;
+    margin-top: 10%;
+    text-align: center; /* Center the text */
+}
+
+#score {
+    font-size: 24px;
+    font-weight: bold;
+    color: black; /* Set the text color to black */
+    margin-top: 10px; /* Add some top margin for spacing */
+}
+/* Add any additional styles as needed */
